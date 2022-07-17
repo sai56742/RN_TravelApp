@@ -175,12 +175,7 @@ borderRadius:width/20
 <View  style={{paddingTop:20,justifyContent:'center',alignItems:'center',backgroundColor:'gray'}}>
   
 
-{/* <LinearGradient 
-// 
-    // colors={["#A1FFCE" ,"#FAFFD1"]}
-    // colors={["#ff00cc", "#333399"]}
-    style={{paddingTop:20,justifyContent:'center',alignItems:'center'}}
-    > */}
+
             <Text style={{fontSize:width/18,
             elevation:0.9,
             marginTop:width/10,

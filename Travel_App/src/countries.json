@@ -1,0 +1,199 @@
+[
+    {
+       "country" : "india",
+
+   "places":[ 
+    {
+        "id": 1,
+        "place":"Goa",
+        "watch":0,
+        "card" :"../Images/goa.png",
+        "des1" :"Goa is a favourite beach destination in India. It has a laid-back lifestyle, hippie vibe, glorious scenic beaches, natural tranquillity, beach sports, and awesome parties. It’s a great destination year-round, but visiting Goa during summer is quite a special experience. Here are some reasons to visit Goa this summer.",
+        "des2" : "Water sports definitely shouldn’t be missed on a trip to Goa: parasailing, water skiing, jet skiing, wind surfing, banana boat ride, scuba diving, dolphin spotting, snorkeling… Get ready for an adrenaline rush!",
+        "des3" :"A trip to Goa is incomplete without trying the delicious local cuisine: pork vindaloo, Goan fish curry, sorpotel, fish recheado, prawn balchao, bebinca, and of course, the local liquor, Goan feni… hungry yet?",
+        "des4" : "There are festivities and celebrations in Goa year-round, but the months of summer (March-May) throb with high spirits and liveliness. The best festivals at this time of year are Shigmo (March), a street festival that portrays Goan life through folk performances, music, dance and parades; Easter (March or April); Grape Escapade (April), a wine festival; the Goan Food and Music Festival (April), which celebrates Goan delicacies and music; the Konkan Fruit Fest (April); India Bike Week (April); and the Goa Heritage Festival (May).",
+        "des5" : "The majestic cascade of white water, gushing over the steep, nearly vertical face of the mountain from a spectacular height of 1017ft; is both breath taking and awe inspiring, making one aware that there are many forces in nature much more powerful that the human mind and body.The name ‘Dudhsagar’ literally translates to ‘sea of milk’ which many believe is an allusion to the white spray and foam that the great waterfall creates as it cascades into the waters of the lake. The falls are at their zenith during the monsoon season, although they are a popular attraction all year round."
+    },
+    {
+       "id" : 2,
+       "place" : "Agra",
+       "watch":0,
+       "card" :"../Images/agra.png",
+       "des1" :"Goa is a favourite beach destination in India. It has a laid-back lifestyle, hippie vibe, glorious scenic beaches, natural tranquillity, beach sports, and awesome parties. It’s a great destination year-round, but visiting Goa during summer is quite a special experience. Here are some reasons to visit Goa this summer.",
+       "des2" : "Water sports definitely shouldn’t be missed on a trip to Goa: parasailing, water skiing, jet skiing, wind surfing, banana boat ride, scuba diving, dolphin spotting, snorkeling… Get ready for an adrenaline rush!",
+       "des3" :"A trip to Goa is incomplete without trying the delicious local cuisine: pork vindaloo, Goan fish curry, sorpotel, fish recheado, prawn balchao, bebinca, and of course, the local liquor, Goan feni… hungry yet?",
+       "des4" : "There are festivities and celebrations in Goa year-round, but the months of summer (March-May) throb with high spirits and liveliness. The best festivals at this time of year are Shigmo (March), a street festival that portrays Goan life through folk performances, music, dance and parades; Easter (March or April); Grape Escapade (April), a wine festival; the Goan Food and Music Festival (April), which celebrates Goan delicacies and music; the Konkan Fruit Fest (April); India Bike Week (April); and the Goa Heritage Festival (May).",
+       "des5" : "The majestic cascade of white water, gushing over the steep, nearly vertical face of the mountain from a spectacular height of 1017ft; is both breath taking and awe inspiring, making one aware that there are many forces in nature much more powerful that the human mind and body.The name ‘Dudhsagar’ literally translates to ‘sea of milk’ which many believe is an allusion to the white spray and foam that the great waterfall creates as it cascades into the waters of the lake. The falls are at their zenith during the monsoon season, although they are a popular attraction all year round."
+    },
+    {
+        "id" : 3,
+        "place" : "Manali",
+        "watch":0,
+        "card" :"../Images/piramid.png",
+        "des1" :"Goa is a favourite beach destination in India. It has a laid-back lifestyle, hippie vibe, glorious scenic beaches, natural tranquillity, beach sports, and awesome parties. It’s a great destination year-round, but visiting Goa during summer is quite a special experience. Here are some reasons to visit Goa this summer.",
+        "des2" : "Water sports definitely shouldn’t be missed on a trip to Goa: parasailing, water skiing, jet skiing, wind surfing, banana boat ride, scuba diving, dolphin spotting, snorkeling… Get ready for an adrenaline rush!",
+        "des3" :"A trip to Goa is incomplete without trying the delicious local cuisine: pork vindaloo, Goan fish curry, sorpotel, fish recheado, prawn balchao, bebinca, and of course, the local liquor, Goan feni… hungry yet?",
+        "des4" : "There are festivities and celebrations in Goa year-round, but the months of summer (March-May) throb with high spirits and liveliness. The best festivals at this time of year are Shigmo (March), a street festival that portrays Goan life through folk performances, music, dance and parades; Easter (March or April); Grape Escapade (April), a wine festival; the Goan Food and Music Festival (April), which celebrates Goan delicacies and music; the Konkan Fruit Fest (April); India Bike Week (April); and the Goa Heritage Festival (May).",
+        "des5" : "The majestic cascade of white water, gushing over the steep, nearly vertical face of the mountain from a spectacular height of 1017ft; is both breath taking and awe inspiring, making one aware that there are many forces in nature much more powerful that the human mind and body.The name ‘Dudhsagar’ literally translates to ‘sea of milk’ which many believe is an allusion to the white spray and foam that the great waterfall creates as it cascades into the waters of the lake. The falls are at their zenith during the monsoon season, although they are a popular attraction all year round."
+
+    },
+    {
+        "id" : 4,
+        "place" : "Ooty",
+        "watch":0,
+        "card" :"../Images/piramid.png",
+        "des1" :"Goa is a favourite beach destination in India. It has a laid-back lifestyle, hippie vibe, glorious scenic beaches, natural tranquillity, beach sports, and awesome parties. It’s a great destination year-round, but visiting Goa during summer is quite a special experience. Here are some reasons to visit Goa this summer.",
+        "des2" : "Water sports definitely shouldn’t be missed on a trip to Goa: parasailing, water skiing, jet skiing, wind surfing, banana boat ride, scuba diving, dolphin spotting, snorkeling… Get ready for an adrenaline rush!",
+        "des3" :"A trip to Goa is incomplete without trying the delicious local cuisine: pork vindaloo, Goan fish curry, sorpotel, fish recheado, prawn balchao, bebinca, and of course, the local liquor, Goan feni… hungry yet?",
+        "des4" : "There are festivities and celebrations in Goa year-round, but the months of summer (March-May) throb with high spirits and liveliness. The best festivals at this time of year are Shigmo (March), a street festival that portrays Goan life through folk performances, music, dance and parades; Easter (March or April); Grape Escapade (April), a wine festival; the Goan Food and Music Festival (April), which celebrates Goan delicacies and music; the Konkan Fruit Fest (April); India Bike Week (April); and the Goa Heritage Festival (May).",
+        "des5" : "The majestic cascade of white water, gushing over the steep, nearly vertical face of the mountain from a spectacular height of 1017ft; is both breath taking and awe inspiring, making one aware that there are many forces in nature much more powerful that the human mind and body.The name ‘Dudhsagar’ literally translates to ‘sea of milk’ which many believe is an allusion to the white spray and foam that the great waterfall creates as it cascades into the waters of the lake. The falls are at their zenith during the monsoon season, although they are a popular attraction all year round."
+    },
+    {
+        "id" : 5,
+        "place" : "Shillong",
+        "watch":0,
+        "card" :"../Images/piramid.png",
+        "des1" :"Goa is a favourite beach destination in India. It has a laid-back lifestyle, hippie vibe, glorious scenic beaches, natural tranquillity, beach sports, and awesome parties. It’s a great destination year-round, but visiting Goa during summer is quite a special experience. Here are some reasons to visit Goa this summer.",
+        "des2" : "Water sports definitely shouldn’t be missed on a trip to Goa: parasailing, water skiing, jet skiing, wind surfing, banana boat ride, scuba diving, dolphin spotting, snorkeling… Get ready for an adrenaline rush!",
+        "des3" :"A trip to Goa is incomplete without trying the delicious local cuisine: pork vindaloo, Goan fish curry, sorpotel, fish recheado, prawn balchao, bebinca, and of course, the local liquor, Goan feni… hungry yet?",
+        "des4" : "There are festivities and celebrations in Goa year-round, but the months of summer (March-May) throb with high spirits and liveliness. The best festivals at this time of year are Shigmo (March), a street festival that portrays Goan life through folk performances, music, dance and parades; Easter (March or April); Grape Escapade (April), a wine festival; the Goan Food and Music Festival (April), which celebrates Goan delicacies and music; the Konkan Fruit Fest (April); India Bike Week (April); and the Goa Heritage Festival (May).",
+        "des5" : "The majestic cascade of white water, gushing over the steep, nearly vertical face of the mountain from a spectacular height of 1017ft; is both breath taking and awe inspiring, making one aware that there are many forces in nature much more powerful that the human mind and body.The name ‘Dudhsagar’ literally translates to ‘sea of milk’ which many believe is an allusion to the white spray and foam that the great waterfall creates as it cascades into the waters of the lake. The falls are at their zenith during the monsoon season, although they are a popular attraction all year round."
+    },
+    {
+        "id" : 6,
+        "place" : "Nicobar Islands",
+        "watch" : 1,
+        "card" :"../Images/peru.png",
+        "des1" :"Goa is a favourite beach destination in India. It has a laid-back lifestyle, hippie vibe, glorious scenic beaches, natural tranquillity, beach sports, and awesome parties. It’s a great destination year-round, but visiting Goa during summer is quite a special experience. Here are some reasons to visit Goa this summer.",
+        "des2" : "Water sports definitely shouldn’t be missed on a trip to Goa: parasailing, water skiing, jet skiing, wind surfing, banana boat ride, scuba diving, dolphin spotting, snorkeling… Get ready for an adrenaline rush!",
+        "des3" :"A trip to Goa is incomplete without trying the delicious local cuisine: pork vindaloo, Goan fish curry, sorpotel, fish recheado, prawn balchao, bebinca, and of course, the local liquor, Goan feni… hungry yet?",
+        "des4" : "There are festivities and celebrations in Goa year-round, but the months of summer (March-May) throb with high spirits and liveliness. The best festivals at this time of year are Shigmo (March), a street festival that portrays Goan life through folk performances, music, dance and parades; Easter (March or April); Grape Escapade (April), a wine festival; the Goan Food and Music Festival (April), which celebrates Goan delicacies and music; the Konkan Fruit Fest (April); India Bike Week (April); and the Goa Heritage Festival (May).",
+        "des5" : "The majestic cascade of white water, gushing over the steep, nearly vertical face of the mountain from a spectacular height of 1017ft; is both breath taking and awe inspiring, making one aware that there are many forces in nature much more powerful that the human mind and body.The name ‘Dudhsagar’ literally translates to ‘sea of milk’ which many believe is an allusion to the white spray and foam that the great waterfall creates as it cascades into the waters of the lake. The falls are at their zenith during the monsoon season, although they are a popular attraction all year round."
+    },
+    {
+        "id" : 7,
+        "place" : "Dumas Beach",
+        "watch" : 1,
+        "card" :"../Images/peru.png",
+        "des1" :"Goa is a favourite beach destination in India. It has a laid-back lifestyle, hippie vibe, glorious scenic beaches, natural tranquillity, beach sports, and awesome parties. It’s a great destination year-round, but visiting Goa during summer is quite a special experience. Here are some reasons to visit Goa this summer.",
+        "des2" : "Water sports definitely shouldn’t be missed on a trip to Goa: parasailing, water skiing, jet skiing, wind surfing, banana boat ride, scuba diving, dolphin spotting, snorkeling… Get ready for an adrenaline rush!",
+        "des3" :"A trip to Goa is incomplete without trying the delicious local cuisine: pork vindaloo, Goan fish curry, sorpotel, fish recheado, prawn balchao, bebinca, and of course, the local liquor, Goan feni… hungry yet?",
+        "des4" : "There are festivities and celebrations in Goa year-round, but the months of summer (March-May) throb with high spirits and liveliness. The best festivals at this time of year are Shigmo (March), a street festival that portrays Goan life through folk performances, music, dance and parades; Easter (March or April); Grape Escapade (April), a wine festival; the Goan Food and Music Festival (April), which celebrates Goan delicacies and music; the Konkan Fruit Fest (April); India Bike Week (April); and the Goa Heritage Festival (May).",
+        "des5" : "The majestic cascade of white water, gushing over the steep, nearly vertical face of the mountain from a spectacular height of 1017ft; is both breath taking and awe inspiring, making one aware that there are many forces in nature much more powerful that the human mind and body.The name ‘Dudhsagar’ literally translates to ‘sea of milk’ which many believe is an allusion to the white spray and foam that the great waterfall creates as it cascades into the waters of the lake. The falls are at their zenith during the monsoon season, although they are a popular attraction all year round."
+    },
+    {
+        "id" : 8,
+        "place": "Kishtwar Kailash Road",
+        "watch" : 1,
+        "card" :"../Images/peru.png",
+        "des1" :"Goa is a favourite beach destination in India. It has a laid-back lifestyle, hippie vibe, glorious scenic beaches, natural tranquillity, beach sports, and awesome parties. It’s a great destination year-round, but visiting Goa during summer is quite a special experience. Here are some reasons to visit Goa this summer.",
+        "des2" : "Water sports definitely shouldn’t be missed on a trip to Goa: parasailing, water skiing, jet skiing, wind surfing, banana boat ride, scuba diving, dolphin spotting, snorkeling… Get ready for an adrenaline rush!",
+        "des3" :"A trip to Goa is incomplete without trying the delicious local cuisine: pork vindaloo, Goan fish curry, sorpotel, fish recheado, prawn balchao, bebinca, and of course, the local liquor, Goan feni… hungry yet?",
+        "des4" : "There are festivities and celebrations in Goa year-round, but the months of summer (March-May) throb with high spirits and liveliness. The best festivals at this time of year are Shigmo (March), a street festival that portrays Goan life through folk performances, music, dance and parades; Easter (March or April); Grape Escapade (April), a wine festival; the Goan Food and Music Festival (April), which celebrates Goan delicacies and music; the Konkan Fruit Fest (April); India Bike Week (April); and the Goa Heritage Festival (May).",
+        "des5" : "The majestic cascade of white water, gushing over the steep, nearly vertical face of the mountain from a spectacular height of 1017ft; is both breath taking and awe inspiring, making one aware that there are many forces in nature much more powerful that the human mind and body.The name ‘Dudhsagar’ literally translates to ‘sea of milk’ which many believe is an allusion to the white spray and foam that the great waterfall creates as it cascades into the waters of the lake. The falls are at their zenith during the monsoon season, although they are a popular attraction all year round."
+    }
+
+   ]
+
+
+
+    },
+
+    {
+        "country" : "United States of America",
+ 
+    "places":[ 
+     {
+         "id": 1,
+         "place":"Grand Canyon",
+         "watch":0,
+         "des1" :"Goa is a favourite beach destination in India. It has a laid-back lifestyle, hippie vibe, glorious scenic beaches, natural tranquillity, beach sports, and awesome parties. It’s a great destination year-round, but visiting Goa during summer is quite a special experience. Here are some reasons to visit Goa this summer.",
+         "des2" : "Water sports definitely shouldn’t be missed on a trip to Goa: parasailing, water skiing, jet skiing, wind surfing, banana boat ride, scuba diving, dolphin spotting, snorkeling… Get ready for an adrenaline rush!",
+         "des3" :"A trip to Goa is incomplete without trying the delicious local cuisine: pork vindaloo, Goan fish curry, sorpotel, fish recheado, prawn balchao, bebinca, and of course, the local liquor, Goan feni… hungry yet?",
+         "des4" : "There are festivities and celebrations in Goa year-round, but the months of summer (March-May) throb with high spirits and liveliness. The best festivals at this time of year are Shigmo (March), a street festival that portrays Goan life through folk performances, music, dance and parades; Easter (March or April); Grape Escapade (April), a wine festival; the Goan Food and Music Festival (April), which celebrates Goan delicacies and music; the Konkan Fruit Fest (April); India Bike Week (April); and the Goa Heritage Festival (May).",
+         "des5" : "The majestic cascade of white water, gushing over the steep, nearly vertical face of the mountain from a spectacular height of 1017ft; is both breath taking and awe inspiring, making one aware that there are many forces in nature much more powerful that the human mind and body.The name ‘Dudhsagar’ literally translates to ‘sea of milk’ which many believe is an allusion to the white spray and foam that the great waterfall creates as it cascades into the waters of the lake. The falls are at their zenith during the monsoon season, although they are a popular attraction all year round."
+     },
+     {
+        "id" : 2,
+        "place" : "New York City",
+        "watch":0,
+        "des1" :"Goa is a favourite beach destination in India. It has a laid-back lifestyle, hippie vibe, glorious scenic beaches, natural tranquillity, beach sports, and awesome parties. It’s a great destination year-round, but visiting Goa during summer is quite a special experience. Here are some reasons to visit Goa this summer.",
+        "des2" : "Water sports definitely shouldn’t be missed on a trip to Goa: parasailing, water skiing, jet skiing, wind surfing, banana boat ride, scuba diving, dolphin spotting, snorkeling… Get ready for an adrenaline rush!",
+        "des3" :"A trip to Goa is incomplete without trying the delicious local cuisine: pork vindaloo, Goan fish curry, sorpotel, fish recheado, prawn balchao, bebinca, and of course, the local liquor, Goan feni… hungry yet?",
+        "des4" : "There are festivities and celebrations in Goa year-round, but the months of summer (March-May) throb with high spirits and liveliness. The best festivals at this time of year are Shigmo (March), a street festival that portrays Goan life through folk performances, music, dance and parades; Easter (March or April); Grape Escapade (April), a wine festival; the Goan Food and Music Festival (April), which celebrates Goan delicacies and music; the Konkan Fruit Fest (April); India Bike Week (April); and the Goa Heritage Festival (May).",
+        "des5" : "The majestic cascade of white water, gushing over the steep, nearly vertical face of the mountain from a spectacular height of 1017ft; is both breath taking and awe inspiring, making one aware that there are many forces in nature much more powerful that the human mind and body.The name ‘Dudhsagar’ literally translates to ‘sea of milk’ which many believe is an allusion to the white spray and foam that the great waterfall creates as it cascades into the waters of the lake. The falls are at their zenith during the monsoon season, although they are a popular attraction all year round."
+     },
+     {
+         "id" : 3,
+         "place" : "Statue of Liberty",
+         "watch":0,
+         "des1" :"Goa is a favourite beach destination in India. It has a laid-back lifestyle, hippie vibe, glorious scenic beaches, natural tranquillity, beach sports, and awesome parties. It’s a great destination year-round, but visiting Goa during summer is quite a special experience. Here are some reasons to visit Goa this summer.",
+         "des2" : "Water sports definitely shouldn’t be missed on a trip to Goa: parasailing, water skiing, jet skiing, wind surfing, banana boat ride, scuba diving, dolphin spotting, snorkeling… Get ready for an adrenaline rush!",
+         "des3" :"A trip to Goa is incomplete without trying the delicious local cuisine: pork vindaloo, Goan fish curry, sorpotel, fish recheado, prawn balchao, bebinca, and of course, the local liquor, Goan feni… hungry yet?",
+         "des4" : "There are festivities and celebrations in Goa year-round, but the months of summer (March-May) throb with high spirits and liveliness. The best festivals at this time of year are Shigmo (March), a street festival that portrays Goan life through folk performances, music, dance and parades; Easter (March or April); Grape Escapade (April), a wine festival; the Goan Food and Music Festival (April), which celebrates Goan delicacies and music; the Konkan Fruit Fest (April); India Bike Week (April); and the Goa Heritage Festival (May).",
+         "des5" : "The majestic cascade of white water, gushing over the steep, nearly vertical face of the mountain from a spectacular height of 1017ft; is both breath taking and awe inspiring, making one aware that there are many forces in nature much more powerful that the human mind and body.The name ‘Dudhsagar’ literally translates to ‘sea of milk’ which many believe is an allusion to the white spray and foam that the great waterfall creates as it cascades into the waters of the lake. The falls are at their zenith during the monsoon season, although they are a popular attraction all year round."
+ 
+     },
+     {
+         "id" : 4,
+         "place" : "Walt Disney World Resort",
+         "watch":0,
+         "des1" :"Goa is a favourite beach destination in India. It has a laid-back lifestyle, hippie vibe, glorious scenic beaches, natural tranquillity, beach sports, and awesome parties. It’s a great destination year-round, but visiting Goa during summer is quite a special experience. Here are some reasons to visit Goa this summer.",
+         "des2" : "Water sports definitely shouldn’t be missed on a trip to Goa: parasailing, water skiing, jet skiing, wind surfing, banana boat ride, scuba diving, dolphin spotting, snorkeling… Get ready for an adrenaline rush!",
+         "des3" :"A trip to Goa is incomplete without trying the delicious local cuisine: pork vindaloo, Goan fish curry, sorpotel, fish recheado, prawn balchao, bebinca, and of course, the local liquor, Goan feni… hungry yet?",
+         "des4" : "There are festivities and celebrations in Goa year-round, but the months of summer (March-May) throb with high spirits and liveliness. The best festivals at this time of year are Shigmo (March), a street festival that portrays Goan life through folk performances, music, dance and parades; Easter (March or April); Grape Escapade (April), a wine festival; the Goan Food and Music Festival (April), which celebrates Goan delicacies and music; the Konkan Fruit Fest (April); India Bike Week (April); and the Goa Heritage Festival (May).",
+         "des5" : "The majestic cascade of white water, gushing over the steep, nearly vertical face of the mountain from a spectacular height of 1017ft; is both breath taking and awe inspiring, making one aware that there are many forces in nature much more powerful that the human mind and body.The name ‘Dudhsagar’ literally translates to ‘sea of milk’ which many believe is an allusion to the white spray and foam that the great waterfall creates as it cascades into the waters of the lake. The falls are at their zenith during the monsoon season, although they are a popular attraction all year round."
+     },
+     {
+         "id" : 5,
+         "place" : "Golden Gate Bridge",
+         "watch":0,
+         "des1" :"Goa is a favourite beach destination in India. It has a laid-back lifestyle, hippie vibe, glorious scenic beaches, natural tranquillity, beach sports, and awesome parties. It’s a great destination year-round, but visiting Goa during summer is quite a special experience. Here are some reasons to visit Goa this summer.",
+         "des2" : "Water sports definitely shouldn’t be missed on a trip to Goa: parasailing, water skiing, jet skiing, wind surfing, banana boat ride, scuba diving, dolphin spotting, snorkeling… Get ready for an adrenaline rush!",
+         "des3" :"A trip to Goa is incomplete without trying the delicious local cuisine: pork vindaloo, Goan fish curry, sorpotel, fish recheado, prawn balchao, bebinca, and of course, the local liquor, Goan feni… hungry yet?",
+         "des4" : "There are festivities and celebrations in Goa year-round, but the months of summer (March-May) throb with high spirits and liveliness. The best festivals at this time of year are Shigmo (March), a street festival that portrays Goan life through folk performances, music, dance and parades; Easter (March or April); Grape Escapade (April), a wine festival; the Goan Food and Music Festival (April), which celebrates Goan delicacies and music; the Konkan Fruit Fest (April); India Bike Week (April); and the Goa Heritage Festival (May).",
+         "des5" : "The majestic cascade of white water, gushing over the steep, nearly vertical face of the mountain from a spectacular height of 1017ft; is both breath taking and awe inspiring, making one aware that there are many forces in nature much more powerful that the human mind and body.The name ‘Dudhsagar’ literally translates to ‘sea of milk’ which many believe is an allusion to the white spray and foam that the great waterfall creates as it cascades into the waters of the lake. The falls are at their zenith during the monsoon season, although they are a popular attraction all year round."
+     },
+     {
+         "id" : 6,
+         "place" : "The Big Island (Hawaii)",
+         "watch" : 1,
+         "des1" :"Goa is a favourite beach destination in India. It has a laid-back lifestyle, hippie vibe, glorious scenic beaches, natural tranquillity, beach sports, and awesome parties. It’s a great destination year-round, but visiting Goa during summer is quite a special experience. Here are some reasons to visit Goa this summer.",
+         "des2" : "Water sports definitely shouldn’t be missed on a trip to Goa: parasailing, water skiing, jet skiing, wind surfing, banana boat ride, scuba diving, dolphin spotting, snorkeling… Get ready for an adrenaline rush!",
+         "des3" :"A trip to Goa is incomplete without trying the delicious local cuisine: pork vindaloo, Goan fish curry, sorpotel, fish recheado, prawn balchao, bebinca, and of course, the local liquor, Goan feni… hungry yet?",
+         "des4" : "There are festivities and celebrations in Goa year-round, but the months of summer (March-May) throb with high spirits and liveliness. The best festivals at this time of year are Shigmo (March), a street festival that portrays Goan life through folk performances, music, dance and parades; Easter (March or April); Grape Escapade (April), a wine festival; the Goan Food and Music Festival (April), which celebrates Goan delicacies and music; the Konkan Fruit Fest (April); India Bike Week (April); and the Goa Heritage Festival (May).",
+         "des5" : "The majestic cascade of white water, gushing over the steep, nearly vertical face of the mountain from a spectacular height of 1017ft; is both breath taking and awe inspiring, making one aware that there are many forces in nature much more powerful that the human mind and body.The name ‘Dudhsagar’ literally translates to ‘sea of milk’ which many believe is an allusion to the white spray and foam that the great waterfall creates as it cascades into the waters of the lake. The falls are at their zenith during the monsoon season, although they are a popular attraction all year round."
+     },
+     {
+         "id" : 7,
+         "place" : "The Red Triangle (California)",
+         "watch" : 1,
+         "des1" :"Goa is a favourite beach destination in India. It has a laid-back lifestyle, hippie vibe, glorious scenic beaches, natural tranquillity, beach sports, and awesome parties. It’s a great destination year-round, but visiting Goa during summer is quite a special experience. Here are some reasons to visit Goa this summer.",
+         "des2" : "Water sports definitely shouldn’t be missed on a trip to Goa: parasailing, water skiing, jet skiing, wind surfing, banana boat ride, scuba diving, dolphin spotting, snorkeling… Get ready for an adrenaline rush!",
+         "des3" :"A trip to Goa is incomplete without trying the delicious local cuisine: pork vindaloo, Goan fish curry, sorpotel, fish recheado, prawn balchao, bebinca, and of course, the local liquor, Goan feni… hungry yet?",
+         "des4" : "There are festivities and celebrations in Goa year-round, but the months of summer (March-May) throb with high spirits and liveliness. The best festivals at this time of year are Shigmo (March), a street festival that portrays Goan life through folk performances, music, dance and parades; Easter (March or April); Grape Escapade (April), a wine festival; the Goan Food and Music Festival (April), which celebrates Goan delicacies and music; the Konkan Fruit Fest (April); India Bike Week (April); and the Goa Heritage Festival (May).",
+         "des5" : "The majestic cascade of white water, gushing over the steep, nearly vertical face of the mountain from a spectacular height of 1017ft; is both breath taking and awe inspiring, making one aware that there are many forces in nature much more powerful that the human mind and body.The name ‘Dudhsagar’ literally translates to ‘sea of milk’ which many believe is an allusion to the white spray and foam that the great waterfall creates as it cascades into the waters of the lake. The falls are at their zenith during the monsoon season, although they are a popular attraction all year round."
+     },
+     {
+         "id" : 8,
+         "place": "Kauai, Hawaii",
+         "watch" : 1,
+         "des1" :"Goa is a favourite beach destination in India. It has a laid-back lifestyle, hippie vibe, glorious scenic beaches, natural tranquillity, beach sports, and awesome parties. It’s a great destination year-round, but visiting Goa during summer is quite a special experience. Here are some reasons to visit Goa this summer.",
+         "des2" : "Water sports definitely shouldn’t be missed on a trip to Goa: parasailing, water skiing, jet skiing, wind surfing, banana boat ride, scuba diving, dolphin spotting, snorkeling… Get ready for an adrenaline rush!",
+         "des3" :"A trip to Goa is incomplete without trying the delicious local cuisine: pork vindaloo, Goan fish curry, sorpotel, fish recheado, prawn balchao, bebinca, and of course, the local liquor, Goan feni… hungry yet?",
+         "des4" : "There are festivities and celebrations in Goa year-round, but the months of summer (March-May) throb with high spirits and liveliness. The best festivals at this time of year are Shigmo (March), a street festival that portrays Goan life through folk performances, music, dance and parades; Easter (March or April); Grape Escapade (April), a wine festival; the Goan Food and Music Festival (April), which celebrates Goan delicacies and music; the Konkan Fruit Fest (April); India Bike Week (April); and the Goa Heritage Festival (May).",
+         "des5" : "The majestic cascade of white water, gushing over the steep, nearly vertical face of the mountain from a spectacular height of 1017ft; is both breath taking and awe inspiring, making one aware that there are many forces in nature much more powerful that the human mind and body.The name ‘Dudhsagar’ literally translates to ‘sea of milk’ which many believe is an allusion to the white spray and foam that the great waterfall creates as it cascades into the waters of the lake. The falls are at their zenith during the monsoon season, although they are a popular attraction all year round."
+     }
+ 
+    ]
+ 
+ 
+ 
+     }
+
+
+
+
+
+]
+

@@ -94,8 +94,11 @@ const emailValidation=()=>{
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({  
         // name:"ravikumar",
-      email: "ravi@gmail.com",
-      password:"12378912dhsjs" })
+      // email: "ravi@gmail.com",
+      email: email,
+      // password:"12378912dhsjs"
+      password: passsword
+     })
   };
 
 
@@ -105,9 +108,15 @@ const emailValidation=()=>{
   fetch('http://192.168.1.202:3200/api/user/signin', requestOptions)
   .then(response => response.json())
   .then(data =>{
-    console.log("check the response data==>",data,data.success)
+    console.log("check the response data==>",data,data.success);
+    console.log("check the UserEmail response data==>",data.user.email)
+    console.log("check the UserName response data==>",data.user.name)
+
     if(data.success==true){
       AsyncStorage.setItem("isLogin","true");
+      AsyncStorage.setItem("email",data.user.email);
+      AsyncStorage.setItem("uname",data.user.name);
+      // AsyncStorage.setItem("uname",)
     
       Alert.alert(
         "Login",
