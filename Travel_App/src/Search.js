@@ -215,7 +215,7 @@ const renderItem11=({item,index})=>{
 <View 
     style={{
       borderColor:'green',
-      borderWidth:3,
+      borderWidth:4,
       // opacity:0.9,
       marginLeft:20,
       marginTop:width/30,
@@ -272,11 +272,6 @@ style={{
       }}
       >{item.place}</Text>
 
-      {
-        console.log(
-          "check the image card path===>",item.card,index
-        )
-      }
       <Image 
     //  tintColor='white' 
     // source={require("../Images/peru.jpg")}
@@ -289,7 +284,7 @@ style={{
     }
 
     style={{
-      
+      marginTop:1,
 
     marginEnd:30,
       // opacity:0.8,
@@ -326,7 +321,7 @@ const renderItem22=({item,index})=>{
 <View 
     style={{
       borderColor:'darkred',
-      borderWidth:3,
+      borderWidth:4,
       // opacity:0.9,
       marginRight:width/20,
       marginTop:width/25,
@@ -399,7 +394,7 @@ const renderItem22=({item,index})=>{
     // source={item.card} 
     style={{
       
-
+marginTop:1,
     marginEnd:30,
       opacity:0.8,
       width:width/1.12,
@@ -443,8 +438,8 @@ return(
   <View>
 
     <View style={{flexDirection:'row'}}>
-    <Text style={{color:'green', fontFamily:"italic",marginLeft:width/20,fontWeight:'bold'}}>Safe Places:green border</Text>
-    <Text style={{color:'darkred', fontFamily:"italic",marginLeft:width/20,fontWeight:'bold'}}>Unsafe Places:red border</Text>
+    <Text style={{color:'green', fontFamily:"italic",margin:width/35,fontWeight:'bold'}}>Safe Places:Green border</Text>
+    <Text style={{color:'darkred', fontFamily:"italic",margin:width/35,fontWeight:'bold'}}>Unsafe Places:Red border</Text>
 
       </View>
     <FlatList 
@@ -543,7 +538,7 @@ return(
     
     <View 
     style={{
-      marginTop:width/10,
+      marginTop:width/15,
       width:width/1.1,
      height:width/6,
      borderWidth:1,
@@ -658,7 +653,7 @@ No Data Found
    {
     textinput==false?
     <View style={{
-      marginTop:width/10,
+      marginTop:width/15,
       width:width/1.1,
      height:width/6,
      borderWidth:1,

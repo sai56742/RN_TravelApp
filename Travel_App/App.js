@@ -12,6 +12,8 @@ import Search from "./src/Search";
 import MyTabs from "./src/MyTabs";
 import Description from "./src/Description";
 import PlaceDes from "./src/PlaceDes";
+import CheckUserName from "./src/CheckUserName";
+import ResetPassword from "./src/ResetPassword";
 
 // import AsyncStorage  from "@react-native-async-storage/async-storage";
 const {width,height}=Dimensions.get("window")
@@ -84,7 +86,42 @@ headerTitleStyle: {
 
 {/* PlaceDes */}
 
+
 <Stack.Screen name="PlaceDes" component={PlaceDes} options={{ headerShown: false,
+headerStyle: {
+  backgroundColor: 'green',
+  height:width/6
+} ,
+headerTitleStyle: {
+  fontWeight: '300',
+  color: '#ffffff',
+  fontSize: 20,
+  // flex:1,
+  marginLeft:width/2.5,
+  textAlign:"center"
+},
+
+}}/>
+
+
+<Stack.Screen name="CheckUserName" component={CheckUserName} options={{ headerShown: false,
+headerStyle: {
+  backgroundColor: 'green',
+  height:width/6
+} ,
+headerTitleStyle: {
+  fontWeight: '300',
+  color: '#ffffff',
+  fontSize: 20,
+  // flex:1,
+  marginLeft:width/2.5,
+  textAlign:"center"
+},
+
+}}/>
+
+
+<Stack.Screen name="ResetPassword" component={ResetPassword} options={{ headerShown: false,
 headerStyle: {
   backgroundColor: 'green',
   height:width/6

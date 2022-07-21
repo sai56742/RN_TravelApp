@@ -1,5 +1,5 @@
 // import react,{} from React;
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Text,View,TouchableOpacity,Image, Dimensions, FlatList } from "react-native";
 // import { FlatList } from "react-native-gesture-handler";
 import Carousel from 'react-native-snap-carousel-v4';
@@ -71,6 +71,23 @@ const Home=({navigation})=>{
 // setActiveIndex(changed[0].index);
 // }
 // });
+
+
+// useEffect(()=>{
+//   getWondersData();
+// },[])
+
+// const getWondersData=()=>{
+
+//   fetch()
+// }
+
+
+
+
+
+
+
 
 const renderItem = ({ item,index }) => {
 

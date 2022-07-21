@@ -7,11 +7,11 @@ import AsyncStorage  from "@react-native-async-storage/async-storage";
 const {width,height}=Dimensions.get("window")
 import Icon from 'react-native-vector-icons/FontAwesome';
 import Icons1 from 'react-native-vector-icons/Ionicons'
-const Login=({navigation})=>{
+const CheckUserName=({navigation})=>{
 
 
   var reg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w\w+)+$/;
-  var pswreg = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/
+//   var pswreg = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/
   const [username,setUserName] = useState("");
   const [email,setEmail] = useState("");
   const [passsword,setPassword] = useState("");
@@ -30,10 +30,10 @@ emailValidation();
 },[email])
 
 
-useEffect(()=>{
-  console.log("check the useeffect username",passsword)
-passwordValidation();
-},[passsword])
+// useEffect(()=>{
+//   console.log("check the useeffect username",passsword)
+// passwordValidation();
+// },[passsword])
 
 
 const emailValidation=()=>{
@@ -71,11 +71,8 @@ const emailValidation=()=>{
        if (email == ""){
   setEmailFlag(true)
       }
-      else if(passsword == ""){
-  setPasswordFlag(true)
-      }
       else{
-        LoginSubmit()
+        CheckUserSubmit()
       }
       
   
@@ -87,7 +84,7 @@ const emailValidation=()=>{
 
 
 
-  const LoginSubmit=async()=>{
+  const CheckUserSubmit=async()=>{
 
     const requestOptions = {
       method: 'POST',
@@ -97,7 +94,7 @@ const emailValidation=()=>{
       // email: "ravi@gmail.com",
       email: email,
       // password:"12378912dhsjs"
-      password: passsword
+    //   password: passsword
      })
   };
 
@@ -105,38 +102,40 @@ const emailValidation=()=>{
 
 
   console.log("check the Login request data before submit===")
-  fetch('http://192.168.1.202:3200/api/user/signin', requestOptions)
+  fetch('http://192.168.1.202:3200/api/user/useridcheck', requestOptions)
   .then(response => response.json())
   .then(data =>{
     console.log("check the response data==>",data,data.success);
-    console.log("check the UserEmail response data==>",data.user.email)
-    console.log("check the UserName response data==>",data.user.name)
+    // console.log("check the UserEmail response data==>",data.user.email)
+    // console.log("check the UserName response data==>",data.user.name)
 
     if(data.success==true){
-      AsyncStorage.setItem("isLogin","true");
+    //   AsyncStorage.setItem("isLogin","true");
       AsyncStorage.setItem("email",data.user.email);
-      AsyncStorage.setItem("uname",data.user.name);
+    //   AsyncStorage.setItem("uname",data.user.name);
       // AsyncStorage.setItem("uname",)
-    
-      Alert.alert(
-        "Login",
-        "Login Successful",
-        [
+      navigation.navigate("ResetPassword");
+    //   Alert.alert(
+    //     "Login",
+    //     "Login Successful",
+    //     [
           
-          { text: "OK", onPress: () =>{navigation.replace("BottomTab"), console.log("OK Pressed")} }
-        ]
-        )
+    //       { text: "OK", onPress: () =>{navigation.replace("ResetPassword"), console.log("OK Pressed")} }
+    //     ]
+    //     )
 
        
           }
 
           else{
             Alert.alert(
-              "Alert Title",
-              "Login Failed ",
+              "User Check",
+              "User Not Found please sign up",
               [
                 
-                { text: "OK", onPress: () =>{navigation.navigate("Login"), console.log("OK Pressed")} }
+                { text: "OK", onPress: () =>{
+                    // navigation.navigate("Che"),
+                     console.log("OK Pressed")} }
       ]
               )
           }
@@ -173,7 +172,7 @@ const emailValidation=()=>{
       alignItems:'center'
       }}>
 
-<Text style={{fontSize:width/15,fontStyle:'italic',color:'white'}}>Login</Text>
+<Text style={{fontSize:width/15,fontStyle:'italic',color:'white'}}>Reset Password</Text>
 
       {/* <Text style={{fontSize:width/15,fontStyle:'italic',color:'white'}}>{PlacesData[id].name}</Text> */}
       </View>
@@ -222,38 +221,9 @@ const emailValidation=()=>{
         null
       }
 
-      <View  style={{
-        borderRadius:width/20,
-        marginTop:width/10,
-        marginLeft:width/7,
-      width:width/1.3,
-      // justifyContent:'center',
-      // alignItems:'center',
-      borderWidth:1,
-      borderColor:'black'}}>
-        
-      <TextInput
-      secureTextEntry={true}
-      textAlignVertical="top"
       
-          placeholder="                    Enter your Passsword"
-           placeholderTextColor={'darkgreen'}
-          value={passsword}
-          onChangeText={(val)=>{setPassword(val),passwordValidation(),console.log("check the password",val)}}
-        
-      />
       
-      </View>
       
-      {
-     passwordFlag==true
-        ?
-        <View style={{marginLeft:width/6,width:width/1.4,backgroundColor:'white',borderRadius:width/50,padding:10}}>
-          <Text style={{color:'red',fontWeight:'bold'}}>Password must have 8 characters with 1 special character ,Alphabet,digit </Text>
-          </View>
-        :
-        null
-      }
 
       <View>
         <TouchableOpacity onPress={()=>validate()} style={{marginTop:width/10,
@@ -265,7 +235,7 @@ const emailValidation=()=>{
         justifyContent:'center',
         backgroundColor:'green'
         }}>
-          <Text style={{fontSize:width/20,color:'white'}}>Sign in</Text>
+          <Text style={{fontSize:width/20,color:'white'}}>Submit</Text>
         </TouchableOpacity>
         <Text style={{marginLeft:width/3,marginTop:width/20,fontSize:width/20,color:'green'}}>Not yet registered?</Text>
 
@@ -281,22 +251,7 @@ const emailValidation=()=>{
         }}>
           <Text style={{fontSize:width/20,color:'white'}}>Sign up</Text>
         </TouchableOpacity>
-
-        <TouchableOpacity onPress={()=>navigation.navigate("CheckUserName")} style={{marginTop:width/15,
-        marginLeft:width/7,
-        width:width/1.3,
-        height:width/8,
-        borderRadius:width/10,
-        alignItems:'center',
-        justifyContent:'center',
-        backgroundColor:'green'
-        }}>
-          <Text style={{fontSize:width/20,color:'white'}}>Reset Password</Text>
-        </TouchableOpacity>
         </View>
-
-
-
       </View>
       </View>
     </ImageBackground>
@@ -314,4 +269,4 @@ const styles = StyleSheet.create({
     justifyContent: "center"
   }
 });
-export default Login;
+export default CheckUserName;

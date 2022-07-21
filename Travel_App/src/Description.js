@@ -16,7 +16,7 @@ var PlacesData=[
     "des3" : " The pyramid rises to a height of 479 feet (146 metres) with a base of 754 feet (230 metres) and is comprised of over two million blocks of stone. Some of these stones are of such immense size and weight (such as the granite slabs in the King's Chamber) that the logistics of raising and positioning them so precisely seems an impossibility by modern standards.",
     
     "des4" : " The pyramid was first excavated using modern techniques and scientific analysis in 1880 by Sir William Matthew Flinders Petrie (l.1853-1942), the British archaeologist who set the standard for archaeological operations in Egypt generally and at Giza specifically. Writing on the pyramid in 1883, Flinders Petrie noted:",
-    "des5": ""
+    "des5": "The pyramid was first excavated using modern techniques and scientific analysis in 1880 by Sir William Matthew Flinders Petrie (l.1853-1942), the British archaeologist who set the standard for archaeological operations in Egypt generally and at Giza specifically. Writing on the pyramid in 1883, Flinders Petrie noted:"
   },
   {
     "id" : 2,
@@ -28,6 +28,7 @@ var PlacesData=[
     "des4" :"You typically can’t see the Great Wall of China from space. A popular myth, the claim was disproved when astronauts stated that the Great Wall of China was not visible with the naked eye from the Moon. Due to its coloration and pollution, the structure is only sometimes visible from low orbit and the International Space Station.",
     "des5" :"Great Wall of China, Chinese Wanli Changcheng, Defensive wall, northern China. One of the largest building-construction projects ever carried out, it runs (with all its branches) about 4,500 mi (7,300 km) east to west from the Bo Hai (Gulf of Chihli) to a point deep in Central Asia. Large parts of the fortification date from the 7th to the 4th century BCE. In the 3rd century BCE the emperor Shihuangdi connected existing defensive walls into a single system fortified by watchtowers. These served both to guard the rampart and to communicate with the capital, Xianyang (near modern Xi’an) by signal—smoke by day and fire by night. Originally constructed partly of masonry and earth, it was faced with brick in its eastern portion. It was rebuilt in later times, especially in the 15th and 16th centuries. The basic wall is about 23–26 ft (7–8 m) high; at intervals towers rise above it to varying heights. It was designated a UNESCO World Heritage site in 1987."
 },
+
   {
     "id" : 3,
     "name" : "Petra - Jordan",

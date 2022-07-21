@@ -7,33 +7,62 @@ import AsyncStorage  from "@react-native-async-storage/async-storage";
 const {width,height}=Dimensions.get("window")
 import Icon from 'react-native-vector-icons/FontAwesome';
 import Icons1 from 'react-native-vector-icons/Ionicons'
-const Login=({navigation})=>{
+const ResetPassword=({navigation ,route})=>{
 
 
   var reg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w\w+)+$/;
   var pswreg = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/
   const [username,setUserName] = useState("");
   const [email,setEmail] = useState("");
-  const [passsword,setPassword] = useState("");
+  const [password,setPassword] = useState("");
   const [address,setAddress] = useState("");
   const [usernameflag, setUsernameFlag] = useState(false)
   const [emailflag,setEmailFlag] = useState(false);
  const [passwordFlag,setPasswordFlag] = useState(false);
  const [enableSubmit,setEnableSubmit] = useState(true)
 
-
- 
+ const [confirmPsw,setConfirmPsw] = useState("");
+ const [confirmPswFlag , setConfirmPswFlag] = useState(false);
 
 useEffect(()=>{
-  console.log("check the useeffect username",email)
-emailValidation();
+
+   getUerNmae();
+
+},[])
+
+useEffect(()=>{
+
+setEmail(email)
+console.log('get the email ======>',email)
+
 },[email])
 
+ const getUerNmae=async()=>{
+
+
+   var tempUsrName = await AsyncStorage.getItem("email");
+   setEmail(tempUsrName)
+ }
+
+// useEffect(()=>{
+//   console.log("check the useeffect username",email)
+// emailValidation();
+// },[email])
+
 
 useEffect(()=>{
-  console.log("check the useeffect username",passsword)
+  console.log("check the useeffect username",password)
 passwordValidation();
-},[passsword])
+},[password])
+
+
+useEffect(()=>{
+    console.log("check the useeffect username",confirmPsw)
+  confirmPswValidation();
+  },[confirmPsw])
+  
+
+
 
 
 const emailValidation=()=>{
@@ -52,7 +81,11 @@ const emailValidation=()=>{
   
     const passwordValidation=()=>{
   
-  if(passsword.length>=1 && pswreg.test(passsword)!=true){
+  if(password.length>=1 && pswreg.test(password)!=true){
+
+
+    
+
     setPasswordFlag(true)
     setEnableSubmit(false)
   }
@@ -63,6 +96,23 @@ const emailValidation=()=>{
   
     }
   
+    const confirmPswValidation=()=>{
+  
+        if(confirmPsw.length>=1 && password != confirmPsw ){
+      
+      
+          
+      
+          setConfirmPswFlag(true)
+          setEnableSubmit(false)
+        }
+        else{
+            setConfirmPswFlag(false)
+          setEnableSubmit(true)
+        }
+        
+          }
+
 
 
     const validate=()=>{
@@ -71,11 +121,14 @@ const emailValidation=()=>{
        if (email == ""){
   setEmailFlag(true)
       }
-      else if(passsword == ""){
+      else if(password == ""){
   setPasswordFlag(true)
       }
+      else if(confirmPsw == ""){
+
+      }
       else{
-        LoginSubmit()
+        ResetPasswordSubmit()
       }
       
   
@@ -87,7 +140,12 @@ const emailValidation=()=>{
 
 
 
-  const LoginSubmit=async()=>{
+  const ResetPasswordSubmit=async()=>{
+
+
+
+
+
 
     const requestOptions = {
       method: 'POST',
@@ -97,7 +155,8 @@ const emailValidation=()=>{
       // email: "ravi@gmail.com",
       email: email,
       // password:"12378912dhsjs"
-      password: passsword
+      password: password
+    
      })
   };
 
@@ -105,7 +164,7 @@ const emailValidation=()=>{
 
 
   console.log("check the Login request data before submit===")
-  fetch('http://192.168.1.202:3200/api/user/signin', requestOptions)
+  fetch('http://192.168.1.202:3200/api/user/passwordUpadte', requestOptions)
   .then(response => response.json())
   .then(data =>{
     console.log("check the response data==>",data,data.success);
@@ -113,14 +172,14 @@ const emailValidation=()=>{
     console.log("check the UserName response data==>",data.user.name)
 
     if(data.success==true){
-      AsyncStorage.setItem("isLogin","true");
+    //   AsyncStorage.setItem("isLogin","true");
       AsyncStorage.setItem("email",data.user.email);
       AsyncStorage.setItem("uname",data.user.name);
       // AsyncStorage.setItem("uname",)
     
       Alert.alert(
-        "Login",
-        "Login Successful",
+        "Reset Password",
+        "Password Reset Successful",
         [
           
           { text: "OK", onPress: () =>{navigation.replace("BottomTab"), console.log("OK Pressed")} }
@@ -173,16 +232,16 @@ const emailValidation=()=>{
       alignItems:'center'
       }}>
 
-<Text style={{fontSize:width/15,fontStyle:'italic',color:'white'}}>Login</Text>
+<Text style={{fontSize:width/15,fontStyle:'italic',color:'white'}}>Reset Password</Text>
 
       {/* <Text style={{fontSize:width/15,fontStyle:'italic',color:'white'}}>{PlacesData[id].name}</Text> */}
       </View>
-    <ImageBackground source={require('../Images/pic1.jpg')} 
+    <ImageBackground source={require('../Images/pic1.jpg')}  
     resizeMode="cover"
     style={{width:width,height:width*3,opacity:0.9}}
     //  style={styles.image}
      >
-
+ 
 
       <View style={{zIndex:1}}>
 
@@ -200,27 +259,23 @@ const emailValidation=()=>{
       borderColor:'black'}}>
         {/* <Text>UserName</Text> */}
       <TextInput
+      style={{fontSize:width/20,color:'black'}}
        autoCapitalize="none"
        secureTextEntry={true}
+       editable={false}
+
        keyboardType={"visible-password"}
               placeholder="                      Enter your E-mail"
               placeholderTextColor={'darkgreen'}
               value={email}
+            
               onChangeText={(val)=>{setEmail(val.toLowerCase(),emailValidation()),console.log("check the email",val)}}
               // keyboardType
       />
       
       </View>
 
-      {
-      emailflag==true
-        ?
-        <View style={{marginLeft:width/6}}>
-          <Text style={{color:'red',fontWeight:'bold'}}>Enter Valid emial id </Text>
-          </View>
-        :
-        null
-      }
+     
 
       <View  style={{
         borderRadius:width/20,
@@ -238,7 +293,7 @@ const emailValidation=()=>{
       
           placeholder="                    Enter your Passsword"
            placeholderTextColor={'darkgreen'}
-          value={passsword}
+          value={password}
           onChangeText={(val)=>{setPassword(val),passwordValidation(),console.log("check the password",val)}}
         
       />
@@ -255,6 +310,50 @@ const emailValidation=()=>{
         null
       }
 
+
+
+
+
+
+
+<View  style={{
+        borderRadius:width/20,
+        marginTop:width/10,
+        marginLeft:width/7,
+      width:width/1.3,
+      // justifyContent:'center',
+      // alignItems:'center',
+      borderWidth:1,
+      borderColor:'black'}}>
+        
+      <TextInput
+      secureTextEntry={true}
+      textAlignVertical="top"
+      
+          placeholder="                    confirm your Passsword"
+           placeholderTextColor={'darkgreen'}
+          value={confirmPsw}
+          onChangeText={(val)=>{setConfirmPsw(val),confirmPswValidation(),console.log("check the confirm password",val)}}
+        
+      />
+      
+      </View>
+      
+      {
+     confirmPswFlag==true
+        ?
+        <View style={{marginLeft:width/6,width:width/1.4,backgroundColor:'white',borderRadius:width/50,padding:10}}>
+          <Text style={{color:'red',fontWeight:'bold'}}>confirm password & password is not matching </Text>
+          </View>
+        :
+        null
+      }
+
+
+
+
+
+
       <View>
         <TouchableOpacity onPress={()=>validate()} style={{marginTop:width/10,
         marginLeft:width/7,
@@ -265,9 +364,9 @@ const emailValidation=()=>{
         justifyContent:'center',
         backgroundColor:'green'
         }}>
-          <Text style={{fontSize:width/20,color:'white'}}>Sign in</Text>
+          <Text style={{fontSize:width/20,color:'white'}}>Reset Password</Text>
         </TouchableOpacity>
-        <Text style={{marginLeft:width/3,marginTop:width/20,fontSize:width/20,color:'green'}}>Not yet registered?</Text>
+        <Text style={{marginLeft:width/3,marginTop:width/20,fontSize:width/20,color:'white'}}>Not yet registered?</Text>
 
         <View>
         <TouchableOpacity onPress={()=>navigation.navigate("Register")} style={{marginTop:width/15,
@@ -281,22 +380,7 @@ const emailValidation=()=>{
         }}>
           <Text style={{fontSize:width/20,color:'white'}}>Sign up</Text>
         </TouchableOpacity>
-
-        <TouchableOpacity onPress={()=>navigation.navigate("CheckUserName")} style={{marginTop:width/15,
-        marginLeft:width/7,
-        width:width/1.3,
-        height:width/8,
-        borderRadius:width/10,
-        alignItems:'center',
-        justifyContent:'center',
-        backgroundColor:'green'
-        }}>
-          <Text style={{fontSize:width/20,color:'white'}}>Reset Password</Text>
-        </TouchableOpacity>
         </View>
-
-
-
       </View>
       </View>
     </ImageBackground>
@@ -314,4 +398,4 @@ const styles = StyleSheet.create({
     justifyContent: "center"
   }
 });
-export default Login;
+export default ResetPassword;

@@ -8,8 +8,10 @@ import {name as appName} from './app.json';
 import Login from './src/Login';
 import Register from './src/Register';
 import BottomTab from './src/BottomTab'
+import CheckUserName from './src/CheckUserName';
+import ResetPassword from './src/ResetPassword';
 
 AppRegistry.registerComponent(appName, () => App);
-// AppRegistry.registerComponent(appName, () => Register);
-// AppRegistry.registerComponent(appName, () => Login);
+// AppRegistry.registerComponent(appName, () => CheckUserName);
+// AppRegistry.registerComponent(appName, () => ResetPassword);
 
